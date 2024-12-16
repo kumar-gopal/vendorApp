@@ -86,7 +86,7 @@ const vendorLogin = async(req,res)=>{
                     expiresIn:"50m"
                 }
             );
-            res.json({accessToken});
+           return  res.json({accessToken});
         }else{
             res.status(401);
             throw new Error("email or password is not valid");

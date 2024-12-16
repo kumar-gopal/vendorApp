@@ -13,7 +13,6 @@ const validateToken = async (req, res, next) => {
             if (err) {
                 return res.status(401).json({ message: "User is not authorized" });
             }
-            console.log(decoded); 
             req.vendor = decoded.vendor; // Add decoded data to the request object
             next(); 
         });
