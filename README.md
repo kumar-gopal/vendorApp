@@ -60,6 +60,7 @@ This project is a backend API for a multi-tenant e-commerce system built using *
 - **Data Validation**: All incoming data is validated using `Joi` or `express-validator`.
 - **Database Optimization**: MongoDB indexes are used to optimize product searches and queries.
 - **Error Handling**: Errors are handled gracefully, returning appropriate HTTP status codes.
+- **Rate Limiting**: The server is protected from excessive requests using `express-rate-limit` to prevent potential downtime.
 
 ## Installation and Setup
 
@@ -98,6 +99,7 @@ This project is a backend API for a multi-tenant e-commerce system built using *
 - `bcrypt`
 - `joi` or `express-validator`
 - `dotenv`
+- `express-rate-limit`
 
 ## License
 This project is licensed under the MIT License. Feel free to use and modify it for your needs.
