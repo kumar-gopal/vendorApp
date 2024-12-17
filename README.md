@@ -1,4 +1,4 @@
-# Multi-Tenant E-Commerce API
+# vandorApp [Multi-Tenant E-Commerce API]
 
 This project is a backend API for a multi-tenant e-commerce system built using **Node.js**, **Express.js**, and **MongoDB**. It allows vendors to register, manage products, and handle orders securely.
 
